@@ -10,6 +10,6 @@ def second_challenge
  items=[]
  groceries.map do |key,value|
     value.collect {|a| a}
-end
+  end
 
 end
