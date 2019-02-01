@@ -7,7 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
- groceries.values
-
+ items=[]
+ groceries.map do |key,value|
+    value.collect {|a| a}
+end
 
 end
