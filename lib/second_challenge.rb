@@ -8,8 +8,8 @@ def second_challenge
 
   #code your solution here!
  items=[]
- groceries.map do |key,value|
-    value.collect {|a| a}
+  groceries.map do |key,value|
+    value.collect {|a| items<<a}
   end
 
 end
